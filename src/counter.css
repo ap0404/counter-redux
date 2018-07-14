@@ -1,0 +1,31 @@
+.counter-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto auto;
+}
+
+.counter-value {
+  font-size: 7em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.btn {
+  background-color: #000;
+  border: 0;
+  color: #fff;
+  display: block;
+  font-size: 2em;
+  margin: 2px;
+  width: 60px;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #03a9f4;
+}
